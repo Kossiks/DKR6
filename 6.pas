@@ -14,7 +14,7 @@ head, tail: integer;
 procedure deleteNode;
   begin
   if head = tail then
-  writeln('List is empty')
+  writeln('Список пуст!')
   else
     begin
     lit[head].data := 0;
